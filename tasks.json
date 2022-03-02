@@ -1,0 +1,184 @@
+{
+  "sber_stat": {
+    "host": "https://stories-stat.online.sberbank.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "sber_clickstream": {
+    "host": "https://clickstream.online.sberbank.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "sber_stat_online": {
+    "host": "https://stat.online.sberbank.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "sber_scr_online": {
+    "host": "https://scr.online.sberbank.ru/api/fl/idgib-w-3ds",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "sber_3ds": {
+    "host": "https://3dsec.sberbank.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "sber_dns1": {
+    "host": "194.54.14.186",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": false
+  },
+  "sber_dns2": {
+    "host": "194.54.14.187",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": false
+  },
+  "sber_dns3": {
+    "host": "194.67.7.1",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": false
+  },
+  "sber_dns4": {
+    "host": "194.67.2.109",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": false
+  },
+  "portal_vpn_russianpost": {
+    "host": "https://portal.vpn.russianpost.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "vpn-msk-rp_it-one": {
+    "host": "https://vpn-msk-rp.it-one.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "vpn_russianpost": {
+    "host": "https://vpn.russianpost.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "vpn_vs1_russianpost": {
+    "host": "https://vpn-vs1.vpn.russianpost.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "vpn_vs2_russianpost": {
+    "host": "https://vpn-vs2.vpn.russianpost.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "vpn_vs3_russianpost": {
+    "host": "https://vpn-vs3.vpn.russianpost.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "dme": {
+    "host": "https://www.dme.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "dme_arrivals_80": {
+    "host": "87.245.150.33",
+    "port": 80,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "dme_arrivals_5353": {
+    "host": "87.245.150.33",
+    "port": 5353,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "dme_arrivals_8008": {
+    "host": "87.245.150.33",
+    "port": 8008,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "dme_arrivals_8080": {
+    "host": "87.245.150.33",
+    "port": 8080,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "62.117.96.157": {
+    "host": "62.117.96.157",
+    "port": 264,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "188.126.62.6_123": {
+    "host": "188.126.62.6",
+    "port": 123,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "188.126.62.6_1723": {
+    "host": "188.126.62.6",
+    "port": 1723,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "188.126.62.6_9443": {
+    "host": "188.126.62.6",
+    "port": 9443,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "188.126.62.6_32400": {
+    "host": "188.126.62.6",
+    "port": 32400,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "195.218.193.141_25": {
+    "host": "195.218.193.141",
+    "port": 25,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  }
+}
