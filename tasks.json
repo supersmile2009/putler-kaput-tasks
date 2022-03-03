@@ -109,74 +109,102 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "dme_arrivals_80": {
     "host": "87.245.150.33",
     "port": 80,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "dme_arrivals_5353": {
     "host": "87.245.150.33",
     "port": 5353,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "dme_arrivals_8008": {
     "host": "87.245.150.33",
     "port": 8008,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "dme_arrivals_8080": {
     "host": "87.245.150.33",
     "port": 8080,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "62.117.96.157": {
     "host": "62.117.96.157",
     "port": 264,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "188.126.62.6_123": {
     "host": "188.126.62.6",
     "port": 123,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "188.126.62.6_1723": {
     "host": "188.126.62.6",
     "port": 1723,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "188.126.62.6_9443": {
     "host": "188.126.62.6",
     "port": 9443,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "188.126.62.6_32400": {
     "host": "188.126.62.6",
     "port": 32400,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "195.218.193.141_25": {
     "host": "195.218.193.141",
     "port": 25,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": false
+  },
+  "185.71.67.220_80_http": {
+    "host": "185.71.67.220",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "185.71.67.220_443_http": {
+    "host": "185.71.67.220",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "185.71.67.220_80_dripper": {
+    "host": "185.71.67.220",
+    "port": 80,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "185.71.67.220_443_dripper": {
+    "host": "185.71.67.220",
+    "port": 443,
     "executor": "exec",
     "app": "dripper",
     "enabled": true
