@@ -5,5 +5,33 @@
     "executor": "exec",
     "app": "dripper",
     "enabled": true
+  },
+  "3652_dripper": {
+    "host": "188.124.42.163",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "3652_dripper2": {
+    "host": "188.124.42.163",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "enabled": true
+  },
+  "3652_http": {
+    "host": "https://www.3652.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "3652_http2": {
+    "host": "https://www.3652.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
   }
 }
