@@ -1,37 +1,44 @@
 {
-  "3652_http": {
-    "host": "https://www.3652.ru",
+  "qiwi-com_91.232.230.50_HTTPS": {
+    "host": "https://qiwi.com",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
     "enabled": true
   },
-  "3652_http2": {
-    "host": "https://www.3652.ru",
+  "qiwi-com_91.232.230.126_HTTPS": {
+    "host": "https://qiwi.com",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
     "enabled": true
   },
-  "91.232.230.50_HTTPS": {
+  "qiwi-com_91.232.230.139_HTTPS": {
+    "host": "https://qiwi.com",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "qiwi-com_91.232.230.50_dripper": {
     "host": "91.232.230.50",
     "port": 443,
     "executor": "exec",
-    "app": "bombardier",
+    "app": "dripper",
     "enabled": true
   },
-  "91.232.230.50_HTTPS2": {
+  "qiwi-com_91.232.230.126_dripper": {
     "host": "91.232.230.50",
     "port": 443,
     "executor": "exec",
-    "app": "bombardier",
+    "app": "dripper",
     "enabled": true
   },
-  "91.232.230.139_HTTPS": {
+  "qiwi-com_91.232.230.139_dripper": {
     "host": "91.232.230.139",
     "port": 443,
     "executor": "exec",
-    "app": "bombardier",
+    "app": "dripper",
     "enabled": true
   }
 }
