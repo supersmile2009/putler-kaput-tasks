@@ -1,44 +1,44 @@
 {
-  "qiwi-com_91.232.230.50_HTTPS": {
-    "host": "https://qiwi.com",
+  "rkn.gov.ru_HTTPS": {
+    "host": "https://rkn.gov.ru",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
     "enabled": true
   },
-  "qiwi-com_91.232.230.126_HTTPS": {
-    "host": "https://qiwi.com",
-    "port": 443,
-    "executor": "exec",
-    "app": "bombardier",
-    "enabled": true
-  },
-  "qiwi-com_91.232.230.139_HTTPS": {
-    "host": "https://qiwi.com",
-    "port": 443,
-    "executor": "exec",
-    "app": "bombardier",
-    "enabled": true
-  },
-  "qiwi-com_91.232.230.50_dripper": {
-    "host": "91.232.230.50",
+  "glonass_195.208.1.141": {
+    "host": "195.208.1.141",
     "port": 443,
     "executor": "exec",
     "app": "dripper",
     "enabled": true
   },
-  "qiwi-com_91.232.230.126_dripper": {
-    "host": "91.232.230.50",
-    "port": 443,
+  "ria.ru-1": {
+    "host": "185.42.137.111",
+    "port": 53,
     "executor": "exec",
-    "app": "dripper",
+    "app": "dnsperf",
     "enabled": true
   },
-  "qiwi-com_91.232.230.139_dripper": {
-    "host": "91.232.230.139",
-    "port": 443,
+  "ria.ru-2": {
+    "host": "91.217.20.1",
+    "port": 53,
     "executor": "exec",
-    "app": "dripper",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "ria.ru-3": {
+    "host": "195.93.246.187",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "ria.ru-4": {
+    "host": "194.58.196.62",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
     "enabled": true
   }
 }
