@@ -1,25 +1,4 @@
 {
-  "alfa-pos": {
-    "host": "217.012.103.135",
-    "port": 6500,
-    "executor": "exec",
-    "app": "dripper",
-    "enabled": true
-  },
-  "3652_dripper": {
-    "host": "188.124.42.163",
-    "port": 443,
-    "executor": "exec",
-    "app": "dripper",
-    "enabled": true
-  },
-  "3652_dripper2": {
-    "host": "188.124.42.163",
-    "port": 443,
-    "executor": "exec",
-    "app": "dripper",
-    "enabled": true
-  },
   "3652_http": {
     "host": "https://www.3652.ru",
     "port": 443,
@@ -29,6 +8,27 @@
   },
   "3652_http2": {
     "host": "https://www.3652.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "91.232.230.50_HTTPS": {
+    "host": "91.232.230.50",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "91.232.230.50_HTTPS2": {
+    "host": "91.232.230.50",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "91.232.230.139_HTTPS": {
+    "host": "91.232.230.139",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
