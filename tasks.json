@@ -14,7 +14,7 @@
     "enabled": false
   },
   "ria.ru-1": {
-    "host": "185.42.137.111",
+    "host": "193.232.146.1",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
@@ -28,14 +28,7 @@
     "enabled": true
   },
   "ria.ru-3": {
-    "host": "195.93.246.187",
-    "port": 53,
-    "executor": "exec",
-    "app": "dnsperf",
-    "enabled": true
-  },
-  "ria.ru-4": {
-    "host": "194.58.196.62",
+    "host": "91.217.21.1",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
