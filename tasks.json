@@ -18,73 +18,101 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": false
+    "enabled": true
   },
   "ria.ru-2": {
     "host": "91.217.20.1",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": false
+    "enabled": true
   },
   "ria.ru-3": {
     "host": "195.93.246.187",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": false
+    "enabled": true
   },
   "ria.ru-4": {
     "host": "194.58.196.62",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": false
+    "enabled": true
   },
   "gtrklnr.com": {
     "host": "https://gtrklnr.com",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "gtrklnr.com_dns_21": {
     "host": "193.228.161.92",
     "port": 21,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "gtrklnr.com_dns2_21": {
     "host": "193.228.161.96",
     "port": 21,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "gtrklnr.com_dns_22": {
     "host": "193.228.161.92",
     "port": 22,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "gtrklnr.com_dns2_22": {
     "host": "193.228.161.96",
     "port": 22,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "aaa-srt-apps.lukoil.com": {
     "host": "https://aaa-srt-apps.lukoil.com",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "fraud_savelife": {
     "host": "141.8.226.59",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "ria.ru_dns": {
+    "host": "178.248.236.20",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "ria.ru_dns2": {
+    "host": "178.248.233.32",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "ria.ru_http": {
+    "host": "http://178.248.233.32",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "ria.ru_https": {
+    "host": "https://178.248.233.32",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
