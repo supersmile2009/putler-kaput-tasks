@@ -48,16 +48,30 @@
     "app": "bombardier",
     "enabled": true
   },
-  "gtrklnr.com_dns": {
+  "gtrklnr.com_dns_21": {
     "host": "193.228.161.92",
     "port": 21,
     "executor": "exec",
     "app": "dnsperf",
     "enabled": true
   },
-  "gtrklnr.com_dns2": {
+  "gtrklnr.com_dns2_21": {
     "host": "193.228.161.96",
     "port": 21,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "gtrklnr.com_dns_22": {
+    "host": "193.228.161.92",
+    "port": 22,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "gtrklnr.com_dns2_22": {
+    "host": "193.228.161.96",
+    "port": 22,
     "executor": "exec",
     "app": "dnsperf",
     "enabled": true
