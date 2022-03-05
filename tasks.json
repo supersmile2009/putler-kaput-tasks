@@ -82,5 +82,12 @@
     "executor": "exec",
     "app": "bombardier",
     "enabled": true
+  },
+  "fraud_savelife": {
+    "host": "141.8.226.59",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
   }
 }
