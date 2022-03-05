@@ -4,41 +4,69 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "glonass_195.208.1.141": {
     "host": "195.208.1.141",
     "port": 443,
     "executor": "exec",
     "app": "dripper",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru-1": {
     "host": "185.42.137.111",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru-2": {
     "host": "91.217.20.1",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru-3": {
     "host": "195.93.246.187",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru-4": {
     "host": "194.58.196.62",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "enabled": false
+  },
+  "gtrklnr.com": {
+    "host": "https://gtrklnr.com",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "gtrklnr.com_dns": {
+    "host": "193.228.161.92",
+    "port": 21,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "gtrklnr.com_dns2": {
+    "host": "193.228.161.96",
+    "port": 21,
+    "executor": "exec",
+    "app": "dnsperf",
+    "enabled": true
+  },
+  "aaa-srt-apps.lukoil.com": {
+    "host": "https://aaa-srt-apps.lukoil.com",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
     "enabled": true
   }
 }
