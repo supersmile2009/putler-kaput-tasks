@@ -18,21 +18,21 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru-2": {
     "host": "91.217.20.1",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru-3": {
     "host": "91.217.21.1",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "gtrklnr.com": {
     "host": "https://gtrklnr.com",
@@ -106,6 +106,34 @@
   },
   "ria.ru_https": {
     "host": "https://178.248.233.32",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "rzd-1": {
+    "host": "https://193.104.87.251",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "rzd-2": {
+    "host": "https://194.84.25.50",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "rzd-3": {
+    "host": "https://193.104.87.248",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "nspk": {
+    "host": "https://178.248.237.238",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
