@@ -88,7 +88,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": false
+    "enabled": true
   },
   "ria.ru_dns2": {
     "host": "178.248.233.32",
@@ -102,35 +102,35 @@
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": false
+    "enabled": true
   },
   "ria.ru_https": {
     "host": "https://178.248.233.32",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": false
+    "enabled": true
   },
   "rzd-1": {
     "host": "https://193.104.87.251",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "rzd-2": {
     "host": "https://194.84.25.50",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "rzd-3": {
     "host": "https://193.104.87.248",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "nspk": {
     "host": "https://178.248.237.238",
