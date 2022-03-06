@@ -88,28 +88,28 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru_dns2": {
     "host": "178.248.233.32",
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru_http": {
     "host": "http://178.248.233.32",
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru_https": {
     "host": "https://178.248.233.32",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "rzd-1": {
     "host": "https://193.104.87.251",
@@ -134,6 +134,13 @@
   },
   "nspk": {
     "host": "https://178.248.237.238",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "dnronline": {
+    "host": "https://dnronline.su/?s=русский-корабль-иди-нахуй",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
