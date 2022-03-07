@@ -88,7 +88,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru_dns2": {
     "host": "178.248.233.32",
@@ -102,14 +102,14 @@
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "ria.ru_https": {
     "host": "https://178.248.233.32",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "rzd-1": {
     "host": "https://193.104.87.251",
@@ -137,10 +137,59 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
-    "enabled": true
+    "enabled": false
   },
   "dnronline": {
     "host": "https://dnronline.su/?s=русский-корабль-иди-нахуй",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": false
+  },
+  "sber_194.54.14.168_http": {
+    "host": "http://194.54.14.168",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "sber_194.54.14.168_https": {
+    "host": "https://194.54.14.168",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "sber_5.188.189.254_http": {
+    "host": "http://5.188.189.254",
+    "port": 80,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "sber_5.188.189.254_https": {
+    "host": "https://5.188.189.254",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "sber_37.18.111.225_https": {
+    "host": "https://37.18.111.225",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "sber_37.18.111.226_https": {
+    "host": "https://37.18.111.226",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "enabled": true
+  },
+  "sber_185.157.96.145_https": {
+    "host": "https://185.157.96.145",
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
