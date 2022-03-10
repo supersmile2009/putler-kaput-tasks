@@ -4,6 +4,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "glonass_195.208.1.141": {
@@ -11,6 +12,7 @@
     "port": 443,
     "executor": "exec",
     "app": "dripper",
+    "durationSecs": 60,
     "enabled": false
   },
   "ria.ru-1": {
@@ -18,6 +20,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "ria.ru-2": {
@@ -25,6 +28,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "ria.ru-3": {
@@ -32,6 +36,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "gtrklnr.com": {
@@ -39,6 +44,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "gtrklnr.com_dns_21": {
@@ -46,6 +52,7 @@
     "port": 21,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "gtrklnr.com_dns2_21": {
@@ -53,6 +60,7 @@
     "port": 21,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "gtrklnr.com_dns_22": {
@@ -60,6 +68,7 @@
     "port": 22,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "gtrklnr.com_dns2_22": {
@@ -67,6 +76,7 @@
     "port": 22,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "aaa-srt-apps.lukoil.com": {
@@ -74,6 +84,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "fraud_savelife": {
@@ -81,6 +92,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "ria.ru_dns": {
@@ -88,6 +100,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "ria.ru_dns2": {
@@ -95,6 +108,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": false
   },
   "ria.ru_http": {
@@ -102,6 +116,7 @@
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "ria.ru_https": {
@@ -109,6 +124,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "rzd-1": {
@@ -116,6 +132,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "rzd-2": {
@@ -123,6 +140,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "rzd-3": {
@@ -130,6 +148,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "rzd-dns1": {
@@ -137,6 +156,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": true
   },
   "rzd-dns11": {
@@ -144,6 +164,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": true
   },
   "rzd-dns2": {
@@ -151,6 +172,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": true
   },
   "rzd-dns3": {
@@ -158,6 +180,7 @@
     "port": 53,
     "executor": "exec",
     "app": "dnsperf",
+    "durationSecs": 60,
     "enabled": true
   },
   "nspk": {
@@ -165,6 +188,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "dnronline": {
@@ -172,6 +196,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "sber_194.54.14.168_http": {
@@ -179,6 +204,7 @@
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "sber_194.54.14.168_https": {
@@ -186,6 +212,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "sber_5.188.189.254_http": {
@@ -193,6 +220,7 @@
     "port": 80,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "sber_5.188.189.254_https": {
@@ -200,6 +228,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "sber_37.18.111.225_https": {
@@ -207,6 +236,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "sber_37.18.111.226_https": {
@@ -214,6 +244,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   },
   "sber_185.157.96.145_https": {
@@ -221,6 +252,7 @@
     "port": 443,
     "executor": "exec",
     "app": "bombardier",
+    "durationSecs": 60,
     "enabled": false
   }
 }
