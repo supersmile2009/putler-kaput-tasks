@@ -13,7 +13,11 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": false
+    "enabled": false,
+    "args": [
+      "-m",
+      "tcp"
+    ]
   },
   "ria.ru-1": {
     "host": "193.232.146.1",
@@ -157,7 +161,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "rzd-dns11": {
     "host": "217.175.155.100",
@@ -165,7 +169,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "rzd-dns2": {
     "host": "217.175.155.12",
@@ -173,7 +177,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "rzd-dns3": {
     "host": "217.175.140.71",
@@ -181,7 +185,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "nspk": {
     "host": "https://178.248.237.238",
@@ -254,5 +258,45 @@
     "app": "bombardier",
     "durationSecs": 60,
     "enabled": false
+  },
+  "iecp.ru": {
+    "host": "https://iecp.ru/ep/ep-verification",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "iecp.ru_udp": {
+    "host": "185.71.67.237",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "udp"
+    ]
+  },
+  "uc-osnovanie.ru": {
+    "host": "https://uc-osnovanie.ru",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "uc-osnovanie.ru_udp": {
+    "host": "185.71.67.237",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "udp"
+    ]
   }
 }
