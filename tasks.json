@@ -265,7 +265,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "iecp.ru_udp": {
     "host": "185.71.67.237",
@@ -273,7 +273,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "udp"
@@ -285,7 +285,7 @@
     "executor": "exec",
     "app": "bombardier",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "uc-osnovanie.ru_udp": {
     "host": "185.71.67.237",
@@ -293,10 +293,90 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "udp"
+    ]
+  },
+  "rt.ru-dns-1": {
+    "host": "95.167.23.6",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "rt.ru-dns-2": {
+    "host": "87.226.162.33",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "rt.ru-dns-3": {
+    "host": "87.226.159.241",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "rt.ru-dns-4": {
+    "host": "87.226.162.32",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "rt.ru-http-1": {
+    "host": "95.167.23.6",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "http"
+    ]
+  },
+  "rt.ru-http-2": {
+    "host": "87.226.162.33",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "http"
+    ]
+  },
+  "rt.ru-http-3": {
+    "host": "87.226.159.241",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "http"
+    ]
+  },
+  "rt.ru-http-4": {
+    "host": "87.226.162.32",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "http"
     ]
   }
 }
