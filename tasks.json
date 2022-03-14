@@ -305,7 +305,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "rt.ru-dns-2": {
     "host": "87.226.162.33",
@@ -313,7 +313,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "rt.ru-dns-3": {
     "host": "87.226.159.241",
@@ -321,7 +321,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "rt.ru-dns-4": {
     "host": "87.226.162.32",
@@ -329,7 +329,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "rt.ru-http-1": {
     "host": "95.167.23.6",
@@ -337,7 +337,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "http"
@@ -349,7 +349,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "http"
@@ -361,7 +361,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "http"
@@ -369,6 +369,110 @@
   },
   "rt.ru-http-4": {
     "host": "87.226.162.32",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": false,
+    "args": [
+      "-m",
+      "http"
+    ]
+  },
+  "webmoney-dns": {
+    "host": "145.239.95.188",
+    "port": 53,
+    "executor": "exec",
+    "app": "dnsperf",
+    "durationSecs": 60,
+    "enabled": true
+  },
+  "webmoney-123tcp-1": {
+    "host": "145.239.95.188",
+    "port": 123,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "webmoney-123tcp-2": {
+    "host": "51.38.185.160",
+    "port": 123,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "webmoney-123tcp-3": {
+    "host": "51.255.142.233",
+    "port": 123,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "webmoney-123tcp-4": {
+    "host": "51.254.57.77",
+    "port": 123,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "webmoney-http-1": {
+    "host": "https://145.239.95.188",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "http"
+    ]
+  },
+  "webmoney-http-2": {
+    "host": "https://51.38.185.160",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "http"
+    ]
+  },
+  "webmoney-http-3": {
+    "host": "https://51.255.142.233",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "http"
+    ]
+  },
+  "webmoney-http-4": {
+    "host": "https://51.254.57.77",
     "port": 443,
     "executor": "exec",
     "app": "dripper",
