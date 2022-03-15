@@ -385,7 +385,7 @@
     "executor": "exec",
     "app": "dnsperf",
     "durationSecs": 60,
-    "enabled": true
+    "enabled": false
   },
   "webmoney-123tcp-1": {
     "host": "145.239.95.188",
@@ -393,7 +393,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "tcp"
@@ -405,7 +405,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "tcp"
@@ -417,7 +417,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "tcp"
@@ -429,7 +429,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "tcp"
@@ -441,7 +441,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "http"
@@ -453,7 +453,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "http"
@@ -465,7 +465,7 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "http"
@@ -477,10 +477,66 @@
     "executor": "exec",
     "app": "dripper",
     "durationSecs": 60,
-    "enabled": true,
+    "enabled": false,
     "args": [
       "-m",
       "http"
     ]
+  },
+  "87.236.16.230-21-tcp": {
+    "host": "87.236.16.230",
+    "port": 21,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "87.236.16.230-22-tcp": {
+    "host": "87.236.16.230",
+    "port": 22,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "87.236.16.230-89-tcp": {
+    "host": "87.236.16.230",
+    "port": 80,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "87.236.16.230-443-tcp": {
+    "host": "87.236.16.230",
+    "port": 443,
+    "executor": "exec",
+    "app": "dripper",
+    "durationSecs": 60,
+    "enabled": true,
+    "args": [
+      "-m",
+      "tcp"
+    ]
+  },
+  "bmpvsu.ru": {
+    "host": "https://bmpvsu.ru/mapppd.php",
+    "port": 443,
+    "executor": "exec",
+    "app": "bombardier",
+    "durationSecs": 60,
+    "enabled": true
   }
 }
